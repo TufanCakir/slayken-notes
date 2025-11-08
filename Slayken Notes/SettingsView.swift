@@ -109,7 +109,7 @@ struct SettingsView: View {
 
 
     private func openAppStoreReviewPage() {
-        let appID = "6755046316"
+        let appID = "6754527709"
         if let url = URL(string: "https://apps.apple.com/app/id\(appID)?action=write-review") {
             UIApplication.shared.open(url)
         }

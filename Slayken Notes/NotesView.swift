@@ -24,7 +24,9 @@ struct NotesView: View {
     var body: some View {
         ZStack {
             backgroundLayer
-
+                   .onTapGesture {
+                       hideKeyboard() // 👈 schließt die Tastatur, wenn man aufs Hintergrund tippt
+                   }
             VStack(spacing: 18) {
                 headerBar
                 newNoteField
@@ -184,6 +186,7 @@ private extension NotesView {
                         .padding(.horizontal, 20)
                         .padding(.bottom, 30)
                     }
+                    .scrollDismissesKeyboard(.interactively) // 🧠 NEU: iOS 16+ → wie Apple Notes
                 }
             }
             .frame(width: geo.size.width, height: geo.size.height)
@@ -325,3 +328,12 @@ private extension NotesView {
         .environmentObject(ProfileManager())
         .preferredColorScheme(.dark)
 }
+
+#if canImport(UIKit)
+extension View {
+    func hideKeyboard() {
+        UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder),
+                                        to: nil, from: nil, for: nil)
+    }
+}
+#endif
