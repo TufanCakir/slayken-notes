@@ -1,0 +1,310 @@
+[
+  {
+    "id": "pencil_white",
+    "title": "White Ink",
+    "description": "Eleganter weißer Stift für dunkle Themes.",
+    "type": "solid",
+    "pencilColor": ["#FFFFFF"],
+    "textFieldBackground": {
+      "type": "solid",
+      "colors": ["#111111"]
+    },
+    "category": "Pencil",
+    "categoryIcon": "pencil",
+    "categoryIconColor": "#FFFFFF"
+  },
+  {
+    "id": "pencil_dark",
+    "title": "Dark Ink",
+    "description": "Tiefes Graphit-Schwarz mit subtiler blauer Reflexion – edel, ruhig und präzise.",
+    "type": "linearGradient",
+    "pencilColor": ["#222831", "#0D0D0D", "#000000"],
+    "textFieldBackground": {
+      "type": "linearGradient",
+      "colors": ["#E6E6E6", "#FFFFFF"]
+    },
+    "category": "Pencil",
+    "categoryIcon": "pencil",
+    "categoryIconColor": "#222831"
+  },
+  {
+    "id": "pencil_gold",
+    "title": "Gold Ink",
+    "description": "Luxuriöse goldene Schrift – ideal für Überschriften und Titel.",
+    "type": "linearGradient",
+    "pencilColor": ["#FFF3B0", "#FFD700", "#C68E17"],
+    "textFieldBackground": {
+      "type": "linearGradient",
+      "colors": ["#1C1400", "#000000"]
+    },
+    "category": "Special Pencil",
+    "categoryIcon": "pencil",
+    "categoryIconColor": "#FFD700"
+  },
+  {
+    "id": "pencil_blue",
+    "title": "Blue Ink",
+    "description": "Klares Blau für kreative Gedanken und ruhige Notizen.",
+    "type": "linearGradient",
+    "pencilColor": ["#99E0FF", "#4DD0FF", "#0080FF"],
+    "textFieldBackground": {
+      "type": "linearGradient",
+      "colors": ["#00111A", "#000000"]
+    },
+    "category": "Special Pencil",
+    "categoryIcon": "pencil",
+    "categoryIconColor": "#00A8FF"
+  },
+  {
+    "id": "pencil_red",
+    "title": "Red Ink",
+    "description": "Markant und energisch – perfekt zum Hervorheben oder Korrigieren.",
+    "type": "meshGradient",
+    "pencilColor": ["#FFAAAA", "#FF5555", "#AA0000"],
+    "textFieldBackground": {
+      "type": "solid",
+      "colors": ["#1A0000"]
+    },
+    "category": "Special Pencil",
+    "categoryIcon": "pencil",
+    "categoryIconColor": "#FF4C4C"
+  },
+  {
+    "id": "pencil_green",
+    "title": "Emerald Ink",
+    "description": "Beruhigendes Grün – inspiriert von Natur, Balance und Fokus.",
+    "type": "linearGradient",
+    "pencilColor": ["#A0FFD6", "#66FFB2", "#00CC88"],
+    "textFieldBackground": {
+      "type": "linearGradient",
+      "colors": ["#00180F", "#000000"]
+    },
+    "category": "Special Pencil",
+    "categoryIcon": "pencil",
+    "categoryIconColor": "#00FF88"
+  },
+  {
+    "id": "pencil_purple",
+    "title": "Amethyst Ink",
+    "description": "Mystisches Violett mit sanftem, luxuriösem Schimmer.",
+    "type": "linearGradient",
+    "pencilColor": ["#E2B8FF", "#B266FF", "#7A1FFF"],
+    "textFieldBackground": {
+      "type": "linearGradient",
+      "colors": ["#100019", "#000000"]
+    },
+    "category": "Special Pencil",
+    "categoryIcon": "pencil",
+    "categoryIconColor": "#B266FF"
+  },
+  {
+    "id": "pencil_cyan",
+    "title": "Aqua Ink",
+    "description": "Frisches Türkis – klar, freundlich und inspirierend.",
+    "type": "meshGradient",
+    "pencilColor": ["#A8FFFF", "#33EFFF", "#00C0C0"],
+    "textFieldBackground": {
+      "type": "linearGradient",
+      "colors": ["#001A1A", "#000000"]
+    },
+    "category": "Special Pencil",
+    "categoryIcon": "pencil",
+    "categoryIconColor": "#00FFFF"
+  },
+  {
+    "id": "pencil_sunset",
+    "title": "Sunset Ink",
+    "description": "Weicher Übergang von Orange zu Pink – wie ein Abendhimmel.",
+    "type": "linearGradient",
+    "pencilColor": ["#FFD6B0", "#FFB499", "#FF5A8A"],
+    "textFieldBackground": {
+      "type": "linearGradient",
+      "colors": ["#200800", "#140008"]
+    },
+    "category": "Special Pencil",
+    "categoryIcon": "pencil",
+    "categoryIconColor": "#FF8C69"
+  },
+  {
+    "id": "pencil_rose",
+    "title": "Rose Ink",
+    "description": "Romantisches Pink – elegant, weich und emotional.",
+    "type": "solid",
+    "pencilColor": ["#FFBBDD"],
+    "textFieldBackground": {
+      "type": "solid",
+      "colors": ["#14000A"]
+    },
+    "category": "Pencil",
+    "categoryIcon": "pencil",
+    "categoryIconColor": "#FF66B2"
+  },
+  {
+    "id": "pencil_neon",
+    "title": "Neon Ink",
+    "description": "Leuchtendes Cybergrün – futuristisch und auffällig.",
+    "type": "meshGradient",
+    "pencilColor": ["#CCFFCC", "#66FF66", "#00FF00"],
+    "textFieldBackground": {
+      "type": "solid",
+      "colors": ["#002200"]
+    },
+    "category": "Special Pencil",
+    "categoryIcon": "pencil",
+    "categoryIconColor": "#39FF14"
+  },
+  {
+    "id": "pencil_ice",
+    "title": "Ice Ink",
+    "description": "Kristallblau mit frostigem Schimmer – inspiriert von Eis und Schnee.",
+    "type": "linearGradient",
+    "pencilColor": ["#E0FFFF", "#A0EFFF", "#66CCFF"],
+    "textFieldBackground": {
+      "type": "linearGradient",
+      "colors": ["#001822", "#000000"]
+    },
+    "category": "Special Pencil",
+    "categoryIcon": "pencil",
+    "categoryIconColor": "#66CCFF"
+  },
+  {
+    "id": "pencil_shadow",
+    "title": "Shadow Ink",
+    "description": "Tiefgrau und geheimnisvoll – wie Tinte aus der Dunkelheit.",
+    "type": "linearGradient",
+    "pencilColor": ["#AAAAAA", "#666666", "#222222"],
+    "textFieldBackground": {
+      "type": "solid",
+      "colors": ["#050505"]
+    },
+    "category": "Pencil",
+    "categoryIcon": "pencil",
+    "categoryIconColor": "#AAAAAA"
+  },
+  {
+    "id": "pencil_fire",
+    "title": "Fire Ink",
+    "description": "Feurige Schrift mit orangenem Glühen.",
+    "type": "meshGradient",
+    "pencilColor": ["#FFD580", "#FF8000", "#FF3300"],
+    "textFieldBackground": {
+      "type": "linearGradient",
+      "colors": ["#200000", "#000000"]
+    },
+    "category": "Special Pencil",
+    "categoryIcon": "pencil",
+    "categoryIconColor": "#FF4500"
+  },
+  {
+    "id": "pencil_silver",
+    "title": "Silver Ink",
+    "description": "Elegante metallische Tinte mit silbernem Glanz.",
+    "type": "linearGradient",
+    "pencilColor": ["#F0F0F0", "#C0C0C0", "#8A8A8A"],
+    "textFieldBackground": {
+      "type": "solid",
+      "colors": ["#121212"]
+    },
+    "category": "Pencil",
+    "categoryIcon": "pencil",
+    "categoryIconColor": "#CCCCCC"
+  },
+  {
+    "id": "pencil_orchid",
+    "title": "Orchid Ink",
+    "description": "Sanftes Lavendelrosa mit floraler Anmut.",
+    "type": "linearGradient",
+    "pencilColor": ["#FFD9F2", "#FFB3E6", "#CC66FF"],
+    "textFieldBackground": {
+      "type": "linearGradient",
+      "colors": ["#190019", "#000000"]
+    },
+    "category": "Pencil",
+    "categoryIcon": "pencil",
+    "categoryIconColor": "#E0AFFF"
+  },
+  {
+    "id": "pencil_copper",
+    "title": "Copper Ink",
+    "description": "Warmes Kupferrot – kräftig, klassisch, elegant.",
+    "type": "linearGradient",
+    "pencilColor": ["#FFD0A0", "#CC7744", "#8B4513"],
+    "textFieldBackground": {
+      "type": "linearGradient",
+      "colors": ["#1C0A00", "#000000"]
+    },
+    "category": "Special Pencil",
+    "categoryIcon": "pencil",
+    "categoryIconColor": "#CC7744"
+  },
+  {
+    "id": "pencil_aurora",
+    "title": "Aurora Ink",
+    "description": "Polarlicht-Tinte – fließender Übergang aus Cyan, Grün und Violett.",
+    "type": "meshGradient",
+    "pencilColor": ["#80FFEA", "#66FF99", "#CC99FF"],
+    "textFieldBackground": {
+      "type": "linearGradient",
+      "colors": ["#001318", "#000000"]
+    },
+    "category": "Special Pencil",
+    "categoryIcon": "pencil",
+    "categoryIconColor": "#66FFCC"
+  },
+  {
+    "id": "pencil_sakura",
+    "title": "Sakura Ink",
+    "description": "Zartrosa Kirschblütentinte mit sanfter Wärme.",
+    "type": "linearGradient",
+    "pencilColor": ["#FFF0F5", "#FFC1CC", "#FF8FB1"],
+    "textFieldBackground": {
+      "type": "solid",
+      "colors": ["#190009"]
+    },
+    "category": "Pencil",
+    "categoryIcon": "pencil",
+    "categoryIconColor": "#FF8FB1"
+  },
+  {
+    "id": "pencil_night",
+    "title": "Night Ink",
+    "description": "Sattes Mitternachtsblau mit edlem Glow.",
+    "type": "linearGradient",
+    "pencilColor": ["#C0D9FF", "#4D6CFF", "#000066"],
+    "textFieldBackground": {
+      "type": "linearGradient",
+      "colors": ["#000016", "#000000"]
+    },
+    "category": "Special Pencil",
+    "categoryIcon": "moon.stars.fill",
+    "categoryIconColor": "#4D6CFF"
+  },
+  {
+    "id": "pencil_lava",
+    "title": "Lava Ink",
+    "description": "Tinte wie geschmolzene Lava – heiß, flüssig, intensiv.",
+    "type": "meshGradient",
+    "pencilColor": ["#FFDD88", "#FF4500", "#A00000"],
+    "textFieldBackground": {
+      "type": "linearGradient",
+      "colors": ["#220000", "#000000"]
+    },
+    "category": "Special Pencil",
+    "categoryIcon": "pencil",
+    "categoryIconColor": "#FF4500"
+  },
+  {
+    "id": "pencil_void",
+    "title": "Void Ink",
+    "description": "Reine Dunkelheit – ideal für Minimalismus und Kontrast.",
+    "type": "solid",
+    "pencilColor": ["#000000"],
+    "textFieldBackground": {
+      "type": "solid",
+      "colors": ["#F2F2F2"]
+    },
+    "category": "Experimental",
+    "categoryIcon": "pencil",
+    "categoryIconColor": "#000000"
+  }
+]
